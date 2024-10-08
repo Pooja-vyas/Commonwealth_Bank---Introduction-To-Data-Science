@@ -51,3 +51,6 @@ Welcome to my Commonwealth Bank Introduction to Data Science virtual internship 
 
 ## Conclusion
 This repository highlights my hands-on experience with real-world data science tasks, including data aggregation, anonymization, and database design. Through this internship, I have enhanced my skills in data engineering, analysis, and the management of structured and unstructured data.
+
+## Commonwealth Bank Data Science Virtual Internship
+Certificate of Completion: [View Certificate](./Certification of complete/CommBank_Certificate.pdf)
