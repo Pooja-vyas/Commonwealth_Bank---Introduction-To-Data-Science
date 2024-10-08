@@ -1,0 +1,13 @@
+Question 1: Across locations, how many apples were purchased in cash?
+
+To answer this question, we filtered the data sheet to include only rows where the
+`product_name` is “apple” and where the `payment_method` is “cash.” Then, we summed the
+`quantity` column to get an answer of 117 apples.
+
+Question 2: How much total cash was spent on these apples?
+
+Here, we left the data sheet filtered to include only rows where the `product_name` is “apple” and where the `payment_method` is “cash.” Then, we summed the `total_amount` column to get an answer of $537.03.
+
+Question 3: Across all payment methods, how much money was spent at the Bakershire store location by non-member customers?
+
+For this question, we cleared all the previous filter criteria. Then, we filtered the data sheet to include only rows where the `customer_type` was non-member, and the `store` was Bakershire. Then, we summed the `total_amount` column to get an answer of $2,857.51.

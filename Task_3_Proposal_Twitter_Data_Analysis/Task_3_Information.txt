@@ -1,0 +1,5 @@
+There are many different types of data, such as images, tabular data, documents, Excel files, etc. However, data types broadly fall into two categories, structured data and unstructured data.
+
+In the previous two tasks, you dealt with structured data. Structured data has a consistent structure (i.e., coming from a database with a consistent schema). For this task, you will be exploring the value we can unlock from unstructured data in the form of written tweets.
+
+First, you’ll want to look at the type of data that you can scrape from the Twitter account by exploring the Twitter API. Then, you’ll propose some ways in which InsightSpark could extract insights from this data to enrich its database.

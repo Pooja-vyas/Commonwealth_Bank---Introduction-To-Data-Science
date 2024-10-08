@@ -1,0 +1,54 @@
+Database Structure for Storing CommBank Twitter Account Data
+
+Tables:
+
+Tweets Table
+
+ -tweet_id : Unique identifier for the tweet.
+ -tweet_text : Text content of the tweet.
+ -tweet_date : Date and time the tweet was posted.
+ -user_id : User ID of the CommBank Twitter account.
+
+Replies Table
+
+ -reply_id : Unique identifier for the reply.
+ -reply_text : Text content of the reply.
+ -reply_date : Date and time the reply was posted.
+ -tweet_id : Foreign key linking to the original tweet.
+ -user_id : User ID of the replying user.
+
+Quote Retweets Table
+
+ -quote_id : Unique identifier for the quote retweet.
+ -quote_text : Text content of the quote retweet.
+ -quote_date : Date and time the quote retweet was posted.
+ -tweet_id : Foreign key linking to the original tweet.
+ -user_id : User ID of the quoting user.
+
+Mentions Table
+
+ -mention_id : Unique identifier for the mention.
+ -mention_text : Text content of the mention.
+ -mention_date : Date and time of the mention.
+ -tweet_id : Foreign key linking to the original tweet.
+ -user_id : User ID of the mentioned user.
+
+Table Relationships:
+
+Tweets Table:
+
+ -One-to-Many relationship with Replies Table based on the tweet_id.
+ -One-to-Many relationship with Quote Retweets Table based on the tweet_id.
+ -One-to-Many relationship with Mentions Table based on the tweet_id.
+
+Replies Table:
+
+ -Many-to-One relationship with Tweets Table based on the tweet_id.
+
+Quote Retweets Table:
+
+ -Many-to-One relationship with Tweets Table based on the tweet_id.
+
+Mentions Table:
+
+ -Many-to-One relationship with Tweets Table based on the tweet_id.
