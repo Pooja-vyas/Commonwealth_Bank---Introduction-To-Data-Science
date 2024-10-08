@@ -1,4 +1,3 @@
-# Commonwealth_Bank---Introduction-To-Data-Science
 # Commonwealth Bank Introduction to Data Science Virtual Internship
 
 Welcome to my Commonwealth Bank Introduction to Data Science virtual internship repository. This repository contains the tasks I completed as part of the internship, where I gained experience in data aggregation, anonymization, social media analysis, and database design.
