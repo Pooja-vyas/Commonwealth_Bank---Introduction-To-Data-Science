@@ -749,7 +749,7 @@ plt.show()
 
 
     
-![png](output_17_2.png)
+![png](./Visualizations/Distribution%20of%20compound%20scores.png)
     
 
 
@@ -820,13 +820,13 @@ plt.show()
 
 
     
-![png](output_20_0.png)
+![png](./Visualizations/Bar%20plot%20of%20average%20sentiment%20scores.png)
     
 
 
 
     
-![png](output_20_1.png)
+![png](./Visualizations/Time%20series%20analysis%20of%20sentiments%20over%20time.png)
     
 
 
@@ -853,7 +853,7 @@ plt.show()
 
 
     
-![png](output_22_0.png)
+![png](./Visualizations/Trend%20Analysis%20between%20VADER%20Compound%20Sentiment%20%26%20TextBlob%20Polarity%20over%20time.png)
     
 
 
@@ -918,7 +918,7 @@ plt.show()
 
 
     
-![png](output_25_0.png)
+![png](./Visualizations/Word%20Clouds%20for%20Trending%20Topics.png)
     
 
 
@@ -939,7 +939,7 @@ plt.show()
 
 
     
-![png](output_27_0.png)
+![png](./Visualizations/Distribution%20of%20VADER%20Compound%20Sentiment.png)
     
 
 
@@ -1234,7 +1234,7 @@ plt.show()
 
 
     
-![png](output_30_0.png)
+![png](./Visualizations/Analyzing%20Sentiment%20by%20Tweet%20Categories.png)
     
 
 
@@ -1345,7 +1345,7 @@ plt.show()
 
 
     
-![png](output_38_0.png)
+![png](./Visualizations/Analyze%20Tweet%20Volume%20Over%20Time.png)
     
 
 
@@ -1367,7 +1367,7 @@ plt.show()
 
 
     
-![png](output_40_0.png)
+![png](./Visualizations/Sentiment%20Trend%20Over%20Time.png)
     
 
 
@@ -1394,6 +1394,6 @@ plt.show()
 
 
     
-![png](output_42_0.png)
+![png](./Visualizations/Analyze%20Specific%20Keywords%20or%20Hashtags.png)
     
 
